@@ -1,0 +1,15 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish" : "node pulisher.js",
+    "consume" : "node consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
